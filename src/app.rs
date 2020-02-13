@@ -1,6 +1,8 @@
 //! This module contains the `App` struct, which is used to bootstrap
 //! a component in an isolated scope.
 
+
+
 use crate::html::{Component, NodeRef, Scope};
 use stdweb::web::{document, Element, INode, IParentNode};
 
